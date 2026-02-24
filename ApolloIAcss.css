@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 8.5em;
+    height: 6.5em;
+    margin-right: 0.5em;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.menu li {
+    color: rgb(255, 255, 255);
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25em;
+    background: url('Hero.jpg') center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+    border-radius: 0.5em;
+}
+
+.Opciones {
+    text-align: center;
+    padding: 3em;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.Opcion {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+
+.Opcion-invertido {
+    flex-direction: row-reverse;
+}
+
+.Opcion img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.Opcion-contenido {
+    padding: 1.5em;
+    text-align: left;
+}
+
+.Opcion h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+.Opcion p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #1a237e;
+    color: white;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+.faq {
+    padding: 3em;
+    background-color: #151313;
+    color: white;
+}
+
+.faq-item {
+    margin-bottom: 1.5em;
+}
+
+.testimonios {
+    padding: 3em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.testimonio {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 1.5em;
+    gap: 1.5em;
+}
+
+.testimonio img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.testimonio p {
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    flex: 1;
+    text-align: left;
+}
+
+footer {
+    background-color: #f0f2fc;
+    padding: 1.5em 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 75em;
+    padding-bottom: 0.5em;
+}
+
+.footer-content p {
+    color: #6c757d;
+    font-size: 1em;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-social img {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
