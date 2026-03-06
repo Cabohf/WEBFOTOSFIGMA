@@ -201,3 +201,49 @@ footer {
     height: 1.5em;
     cursor: pointer;
 }
+
+@media (width < 576px) {
+    .cabecera {
+        flex-direction: flex;
+        align-items: center;
+        padding: 1.0em;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 6em;
+        height: 4.5em;
+        margin-right: 0.5em;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        top: 0.5em;
+        right: 0.0em;
+        width: 0.5em;
+        border-radius: 0.5em;
+        margin: 1em;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        padding: 0.0em;
+        margin: 0.0em;
+        width: 3em;
+    }
+    
+    .menu li {
+        padding: 1.0em;
+        border-bottom: 0.1em solid #ddd;
+        text-align: center;
+        background: white;
+        width: 2em;
+    }
+}
