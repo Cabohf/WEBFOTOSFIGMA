@@ -224,7 +224,7 @@ footer {
     .menu {
         display: flex;
         flex-direction: column;
-        background: white;
+        background: black;
         top: 0.5em;
         right: 0.0em;
         width: 0.5em;
@@ -241,9 +241,9 @@ footer {
     
     .menu li {
         padding: 1.0em;
-        border-bottom: 0.1em solid #ddd;
+        border-bottom: 0.1em solid #000000;
         text-align: center;
-        background: white;
+        background: black;
         width: 2em;
     }
 }
